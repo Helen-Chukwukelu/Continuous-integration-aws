@@ -51,7 +51,7 @@ And also if there is any dependencies required for maven build it will be downlo
 
 
 ..............................................
-INSERT IMAGE
+
 
 
 #### FLOW OF EXECUTION
