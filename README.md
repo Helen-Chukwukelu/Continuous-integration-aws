@@ -1,25 +1,25 @@
 # CONTINUOUS INTEGRATION WITH AWS DEVELOPER TOOLS
 
+
 ## AWS SERVICES USED
 
 
-**AWS CodeCommit**
+- AWS CodeCommit
 
-**AWS CodeArtifact**
+- AWS CodeArtifact
 
-**AWS CodeBuild**
+- AWS CodeBuild
 
-**AWS CodeDeploy
+- AWS CodeDeploy
 
-**AWS CodePipeline**
-
-
-Other Tools: 
+- AWS CodePipeline
 
 
-**Sonarcloud ..not the server**
+Other Tools.......
 
-**Checkstyle for code analysis**
+- Sonarcloud
+
+- Checkstyle for code analysis
 
 
 
@@ -52,6 +52,7 @@ INSERT IMAGE
 
 ##### FLOW OF EXECUTION
 
+
 **CodeCommit**
 
 
@@ -67,7 +68,7 @@ INSERT IMAGE
 
 - Transfer source code from github repository to codeCommit repository 
 
-
+.......................................................................
 **Code Artifact**
 
 
@@ -81,6 +82,7 @@ INSERT IMAGE
 
 - update pod.xml file with CodeCommit repo details
 
+................................................................................
 
 **Sonarcloud**
 
@@ -95,7 +97,7 @@ INSERT IMAGE
 
 - Update codebuild role to access SSM parameter store
 
-
+................................................................................
 
 **Create notifications for SNS or slack**
 
@@ -104,6 +106,7 @@ INSERT IMAGE
 
 - Create subscription and give endpoint
 
+.................................................................................
 
 **Build Project**
 
@@ -116,6 +119,7 @@ INSERT IMAGE
 
 - update codebuild role to access SSMparameterstore
 
+................................................................................
 
 **Create Pipeline**
 
