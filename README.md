@@ -1,6 +1,10 @@
 # CONTINUOUS INTEGRATION WITH AWS DEVELOPER TOOLS
 
 
+![pipeline artichecture](https://user-images.githubusercontent.com/99098585/213904291-74c8d497-1d5c-45ff-9dcf-c054d5d6449c.PNG)
+
+
+
 ## AWS SERVICES USED
 
 
