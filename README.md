@@ -50,7 +50,7 @@ And also if there is any dependencies required for maven build it will be downlo
 INSERT IMAGE
 
 
-##### FLOW OF EXECUTION
+### FLOW OF EXECUTION
 
 
 **CodeCommit**
@@ -69,6 +69,7 @@ INSERT IMAGE
 - Transfer source code from github repository to codeCommit repository 
 
 .......................................................................
+
 **Code Artifact**
 
 
