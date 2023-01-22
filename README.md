@@ -1,6 +1,6 @@
-#CONTINUOUS INTEGRATION WITH AWS DEVELOPER TOOLS
+# CONTINUOUS INTEGRATION WITH AWS DEVELOPER TOOLS
 
-##AWS SERVICES USED
+## AWS SERVICES USED
 
 
 **AWS CodeCommit**
@@ -23,7 +23,7 @@ Other Tools:
 
 
 
-###SOME BENEFIT OF USING AWS DEVELOPER TOOLS FOR CONTINUOUS INTEGRATION
+### SOME BENEFIT OF USING AWS DEVELOPER TOOLS FOR CONTINUOUS INTEGRATION
 
 
 - Short MTTR
@@ -38,7 +38,7 @@ Other Tools:
 
 
 
-####ARTICHECTURE
+#### ARTICHECTURE
 
 
 Developers will make changes to the source code stored in AWS CodeCommit. Pipeline will get triggered and Sonar scanner will run and as well as Checkstyle for code analysis. For any dependencies it will download, it will be from AWS CodeArtifact and then the job will upload the report to Sonarqube cloud and get the result which will then trigger another code job and this will be to build the artifact. The artifact will be versioned and stored in AWS S3.
@@ -50,7 +50,7 @@ And also if there is any dependencies required for maven build it will be downlo
 INSERT IMAGE
 
 
-#####FLOW OF EXECUTION
+##### FLOW OF EXECUTION
 
 **CodeCommit**
 
