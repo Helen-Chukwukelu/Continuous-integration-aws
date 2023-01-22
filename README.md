@@ -129,5 +129,5 @@ The flow will be like:
 - Codecommit - Test code - Build - Deploy to S3 - Test pipeline
 
 
-![image description] (https://github.com/Helen-Chukwukelu/Project-repo/blob/ci-aws/pipeline.PNG)
+![image description] (https://github.com/Helen-Chukwukelu/Project-repo/blob/d3ac56a92c9298680a757fc9bf93c6ba177704f3/pipeline.PNG)
 
