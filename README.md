@@ -50,13 +50,13 @@ And also if there is any dependencies required for maven build it will be downlo
 INSERT IMAGE
 
 
-### FLOW OF EXECUTION
+#### FLOW OF EXECUTION
 
 
 **CodeCommit**
 
 
--Login to AWS account
+- Login to AWS account
 
 - Create codecommit repo
 
